@@ -13,7 +13,6 @@ RSpec.describe "Readings", type: :request do
   end
 
   describe "POST /create" do
-
     it "adds readings and returns success message" do
       post "/readings", params: { device_id: device_id, readings: valid_readings }
 

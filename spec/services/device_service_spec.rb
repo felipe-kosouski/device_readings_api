@@ -35,7 +35,6 @@ RSpec.describe DeviceService, type: :service do
         expect(device_data.cumulative_count).to eq(5)
       end
     end
-
   end
 
   describe '#cumulative_count' do
